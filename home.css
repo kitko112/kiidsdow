@@ -1,0 +1,54 @@
+/* CSS FOR TABLET AND MOBILE */
+@mobile:  ~"only screen and (max-width: 640px)";
+@tablet:  ~"only screen and (min-width: 641px) and (max-width: 949px)";
+div#block-yui_3_17_2_1_1626462472573_4908,
+div#block-a3ec09e357e6edd52a82{
+  	padding-left:0px;
+    padding-right:0px;
+}
+div#block-yui_3_17_2_1_1626462472573_4908 p,
+div#block-a3ec09e357e6edd52a82 p{
+    border-right: 3px dashed #f2d09d;
+    border-left: 3px dashed #f2d09d;
+  	padding-right:17px;
+    padding-left:17px;
+}
+/* CSS FOR TABLET */
+@media @tablet {
+/* Insert Code for Tablet Below This Line*/
+  .row div#block-yui_3_17_2_1_1626462472573_4908,
+.row div#block-a3ec09e357e6edd52a82{
+    padding-left:17px;
+    padding-right:17px;
+}
+  .row  div#block-yui_3_17_2_1_1626462472573_4908 p,
+.row div#block-a3ec09e357e6edd52a82 p{
+    border-right: none;
+    border-left: none;
+  	padding-left:0px;
+ 	padding-right:0px;
+}
+/* Insert Code for Tablet Above This Line */
+}
+
+/* CSS FOR MOBILE */
+@media @mobile {
+/* Insert Code for Mobile Below This Line*/
+  .section-background img{
+    object-position: 65% 50%!important;
+  }
+  
+  .row div#block-yui_3_17_2_1_1626462472573_4908,
+.row div#block-a3ec09e357e6edd52a82 {
+    padding-left:17px;
+    padding-right:17px;
+}
+  .row  div#block-yui_3_17_2_1_1626462472573_4908 p,
+.row div#block-a3ec09e357e6edd52a82 p{
+    border-right: none;
+    border-left: none;
+  	padding-left:0px;
+ 	padding-right:0px;
+}
+/* Insert Code for Mobile Above This Line */
+}
